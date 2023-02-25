@@ -18,9 +18,9 @@ use the original dataset, and resample the data by using the RandomOverSampler m
 	- Model 1 Result</br>
 	![alt text](https://github.com/wf880180/LogisticRegressionModelOversampled/blob/main/Image/Model1Result.png)
 
-	* The accuracy is 99 percent. (18663+563) / (18663+102+56+563) = 0.9918
-	* The precision is 99 percent. 18663 / (18663+18716) = 0.9971
-	* The recall is 99 percent. 18663 / (18663+102) = 0.9945
+	* The accuracy is 99 percent. (18663+563) / (18663 + 102 + 56 + 563) = 0.9918
+	* The precision is 99 percent. 18663 / (18663 + 18716) = 0.9971
+	* The recall is 99 percent. 18663 / (18663 + 102) = 0.9945
 
 
 * Machine Learning Model 2:
@@ -28,6 +28,10 @@ use the original dataset, and resample the data by using the RandomOverSampler m
 	![alt text](https://github.com/wf880180/LogisticRegressionModelOversampled/blob/main/Image/Model2Matrix.png)
 	- Model 2 Result</br>
 	![alt text](https://github.com/wf880180/LogisticRegressionModelOversampled/blob/main/Image/Model2Result.png)
+
+	* The accuracy is 99 percent. (18649+615) / (18649 + 116 + 4 + 615) = 0.9938
+	* The precision is 99 percent. 18649 / (18649 + 56) = 0.9970
+	* The recall is 99 percent. 18649 / (18649 + 116) = 0.9938
 
 ## Summary
 
