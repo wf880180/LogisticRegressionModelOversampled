@@ -23,9 +23,11 @@ use the original dataset, and resample the data by using the RandomOverSampler m
 	* The recall is 99 percent. 18663 / (18663+102) = 0.9945
 
 
-
 * Machine Learning Model 2:
-  * Description of Model 2 Accuracy, Precision, and Recall scores.
+	- Model 2 confusion Matrix </br>
+	![alt text](https://github.com/wf880180/LogisticRegressionModelOversampled/blob/main/Image/Model2Matrix.png)
+	- Model 2 Result</br>
+	![alt text](https://github.com/wf880180/LogisticRegressionModelOversampled/blob/main/Image/Model2Result.png)
 
 ## Summary
 
