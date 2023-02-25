@@ -14,14 +14,14 @@ use the original dataset, and resample the data by using the RandomOverSampler m
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
 * Machine Learning Model 1:
-- Model 1 confusion Matrix
-![alt text](https://github.com/wf880180/LogisticRegressionModelOversampled/blob/main/Image/Model1Matrix.png)
-- Model 1 Result
-![alt text](https://github.com/wf880180/LogisticRegressionModelOversampled/blob/main/Image/Model1Result.png)
+	 Model 1 confusion Matrix </br>
+	![alt text](https://github.com/wf880180/LogisticRegressionModelOversampled/blob/main/Image/Model1Matrix.png)
+	- Model 1 Result</br>
+	![alt text](https://github.com/wf880180/LogisticRegressionModelOversampled/blob/main/Image/Model1Result.png)
 
-  * The accuracy is 99 percent.
-  * The precision is 
-  * 
+	* The accuracy is 99 percent.
+	* The precision is 
+	* 
 
 
 
