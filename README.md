@@ -52,8 +52,8 @@ use the original dataset, and resample the data by using the RandomOverSampler m
 
 ## Summary
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
 * Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
+	- Model 2 is doing better because Model 2's balance is higher and most rate is higher than Model 1.
 
-If you do not recommend any of the models, please justify your reasoning.
+* Does performance depend on the problem we are trying to solve?  (For example, is it more important to predict the 1's, or predict the 0's? )
+	- Yes, in this case we want more accuracy of people pay back the loan, so we'll more focus on the status pay back.
