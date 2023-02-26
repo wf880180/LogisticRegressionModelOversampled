@@ -3,11 +3,28 @@ use the original dataset, and resample the data by using the RandomOverSampler m
 
 ## Overview of the Analysis
 
-* Explain the purpose of the analysis.
-* Explain what financial information the data was on, and what you needed to predict.
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-* Describe the stages of the machine learning process you went through as part of this analysis.
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
+ Purpose of the analysis:
+	Credit risk poses a classification problem that’s inherently imbalanced. Using various techniques to train and evaluate modes with imbalances classes, and build a model that can identify the cerditworthiness of borrowers from the historical dataset.
+* Based on the data set, I set the "loan_status" as a factor and train model. Predict the person is going to pay back the load or not base on each condiction.
+* The model 1 value_counts is [0 : 75036, 1 : 2500] based on "loan_status". The model 2 after oversampled the value_counts is [0 : 56271, 1 : 56271] based on "loan_status".
+* The stages of the machine learning process:
+	- Split the Data into Training and Testing Sets
+		- Step 1: Read the lending_data.csv data from the Resources folder into a Pandas DataFrame.
+		- Step 2: Create the labels set (y) from the “loan_status” column, and then create the features (X) DataFrame from the remaining columns.
+		- Step 3: Check the balance of the labels variable (y) by using the value_counts function.
+		- Step 4: Split the data into training and testing datasets by using train_test_split.
+	- Create a Logistic Regression Model with the Original Data
+		- Step 1: Fit a logistic regression model by using the training data (X_train and y_train).
+		- Step 2: Save the predictions on the testing data labels by using the testing feature data (X_test) and the fitted model.
+		- Step 3: Evaluate the model’s performance by Calculate the accuracy score of the model, Generate a confusion matrix, and Print the classification report.
+	- Predict a Logistic Regression Model with Resampled Training Data
+		- Step 1: Use the RandomOverSampler module from the imbalanced-learn library to resample the data. Be sure to confirm that the labels have an equal number of data points.
+		- Step 2: Use the LogisticRegression classifier and the resampled data to fit the model and make predictions.
+		- Step 3: Evaluate the model’s performance by Calculate the accuracy score of the model, Generate a confusion matrix, and Print the classification report.
+
+* Method:
+	- LogisticRegression
+	- RandomOverSampler
 
 ## Results
 
